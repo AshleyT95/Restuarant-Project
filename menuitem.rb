@@ -7,8 +7,21 @@
 class MenuItem
 #So our joint model is menuitem, thus initialize should have restaurant and recipes
 
+@@all=[]
+
+def initialize(restaurant, recipe)
+    @restaurant = restaurant
+    @recipe = recipe
+MenuItem.all << self
+
+end
+
+def self.all
+    @@all
+end
 
 
+#I am stuck here. I am not sure how to move on from here.
 
 
 
