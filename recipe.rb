@@ -1,5 +1,5 @@
 require 'pry'
-
+s
 class Recipe
 
 attr_reader :name
